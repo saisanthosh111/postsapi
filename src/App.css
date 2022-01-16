@@ -1,0 +1,74 @@
+body {
+    background-color: #cfe4da;
+}
+.posts-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;   
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationDisabled a {
+    color: rgb(201, 196, 196);
+    background-color: grey;
+  }  
+
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.search{
+  width: 100%;
+  position: center;
+  display: flex;
+  
+}
+
+.searchButton{
+  width: 90px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}

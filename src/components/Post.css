@@ -1,0 +1,29 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    /* -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4); */
+
+}
+.heading {
+    margin: 5px 0 20px 0;
+}
+
+.written {
+    color: grey;
+    padding-left: 10px;
+  }
+  textarea {
+    display: block;
+    margin: 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+  }
